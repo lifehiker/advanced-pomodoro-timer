@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "task analytics",
     "study timer",
   ],
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
