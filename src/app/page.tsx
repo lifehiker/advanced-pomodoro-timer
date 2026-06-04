@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </nav>
 
-        <div className="animate-fade-in">
+        <div>
           {activeTab === "timer" && (
             <div className="grid gap-6 lg:grid-cols-[1fr_380px]">
               <TimerDisplay />
